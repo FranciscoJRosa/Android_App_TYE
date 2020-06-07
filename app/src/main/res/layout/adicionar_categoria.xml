@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_designacaoCat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/txt_design"
+        android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+        android:ems="10"
+        android:hint="Designação da Categoria"
+        android:inputType="textPersonName" />
+
+
+
+
+
+
+</RelativeLayout>

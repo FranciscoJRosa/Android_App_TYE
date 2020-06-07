@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_regdesp"
+    tools:context=".TransfContas">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/transferir_icon2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/bg_criarcontafin">
+
+        <EditText
+            android:id="@+id/et_designacaoTransf"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:ems="10"
+            android:hint="Designação da Transferência"
+            android:inputType="textPersonName"
+            android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <Spinner
+            android:id="@+id/spn_contaDestino"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp" />
+
+        <EditText
+            android:id="@+id/et_valorTransf"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="32dp"
+            android:drawableRight="@drawable/ic_euro_symbol_black_24dp"
+            android:ems="10"
+            android:hint="@string/valor"
+            android:inputType="numberDecimal"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_dataTransf"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="42dp"
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:gravity="center"
+            android:hint="Data da Transferência"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp" />
+
+        <Button
+            android:id="@+id/btn_transferir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transferir"
+            android:textSize="24dp"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/gradient2"
+            android:elevation="4dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

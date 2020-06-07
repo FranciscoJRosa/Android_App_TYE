@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/WhiteColor"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp">
+
+        <ImageView
+            android:id="@+id/imageDespesa"
+            android:layout_centerVertical="true"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="8dp"
+            android:padding="2dp"
+            android:src="@drawable/coin_icon"
+            android:background="@drawable/txt_criarcontafin_design"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imageDespesa"
+            android:layout_toEndOf="@+id/imageDespesa"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_despesasrow">
+
+            <TextView
+                android:id="@+id/txt_designacaoDespesa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designação de Despesa"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_valorDespesa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valor Despesa"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_data_Despesa1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Despesa"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_categoriaDespesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categoria Despesa"
+                android:layout_marginLeft="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

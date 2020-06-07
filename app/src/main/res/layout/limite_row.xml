@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/WhiteColor"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp">
+
+        <ImageView
+            android:id="@+id/imageLimite"
+            android:layout_centerVertical="true"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/limitedesp_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/imageLimite"
+            android:layout_toEndOf="@+id/imageLimite"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/txt_designacaoLimite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designação do Limite"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_valorLimite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valor Limite"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_data_InicioLimite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Inicio"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_data_FimLimite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Fim"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_categoriaLimite1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categoria"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

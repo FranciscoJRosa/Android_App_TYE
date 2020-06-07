@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_regdesp"
+    tools:context=".LimiteDespesas">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/limitedesp_icon"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/bg_criarcontafin" >
+
+        <EditText
+            android:id="@+id/et_designacaoLimite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="28dp"
+            android:drawableRight="@drawable/ic_mode_edit_black_24dp"
+            android:ems="10"
+            android:hint="Designação"
+            android:inputType="textPersonName"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <EditText
+            android:id="@+id/et_valorLimite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="28dp"
+            android:drawableRight="@drawable/ic_euro_symbol_black_24dp"
+            android:ems="10"
+            android:hint="Valor Limite"
+            android:inputType="numberDecimal"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <Spinner
+            android:id="@+id/spn_categoriasLimite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/txt_data_Inicio"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:hint="Data de Inicio"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+
+        <TextView
+            android:id="@+id/txt_dataLimite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:hint="Data de Fim"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/ic_date_range_black_24dp"
+            android:background="@drawable/txt_criarcontafin_design"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btn_adicionarLimite"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gradient2"
+            android:elevation="4dp"
+            android:text="Adicionar Limite"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_verLimitesAtivos"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/gradient2"
+            android:layout_marginHorizontal="50dp"
+            android:elevation="4dp"
+            android:text="Limites Ativos"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

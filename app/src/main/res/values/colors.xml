@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#009CF1</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="WhiteColor">#F9FBFB</color>
+    <color name="BlackColor">#090909</color>
+    <color name="LightBlue">#6AC8FF</color>
+    <color name="Magenta">#A83503EA</color>
+    <color name="LightColor">#E5FFFF</color>
+
+    <string-array name="rainbow">
+        <item name="LightWhiteColor">#EDE062</item>
+        <item name="LightRoseColor">#F6D0D0</item>
+        <item name="LightBlueColor">#7BDAE6</item>
+        <item name="LightRedColor">#FA7B7B</item>
+        <item name="YellowColor">#FFC107</item>
+        <item name="HotGreenColor">#80DC17</item>
+        <item name="BlueColor">#00BCD4</item>
+        <item name="LightYellowColor">#F4C072</item>
+        <item name="LightGreenColor">#8BC34A</item>
+        <item name="LightBlueWhiteColor">#BAE1FF</item>
+        <item name="GreenColor">#4CAF50</item>
+        <item name="RoseColor">#F63677</item>
+        <item name="HotBlueColor">#1080DA</item>
+        <item name="RedColor">#F82828</item>
+        <item name="OrangeColor">#FF3D00</item>
+        <item name="LightGreyColor">#989797</item>
+    </string-array>
+
+
+</resources>

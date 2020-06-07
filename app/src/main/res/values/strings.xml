@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TYE</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Categoria">Categoria</string>
+    <string name="NovaConta">Registar novo utilizador</string>
+    <string name="Email">Email</string>
+    <string name="Registar">Registar</string>
+    <string name="FazerLogIn">Fazer Login</string>
+    <string name="ConfirmarPassword">Confirmar Password</string>
+    <string name="DesignacaoConta">Designação da Nova Conta</string>
+    <string name="Saldo">Saldo</string>
+    <string name="Criar">Criar</string>
+    <string name="Adicionar">Adicionar</string>
+    <string name="RegDespesa">Registar Despesa</string>
+    <string name="RegRendimento">Registar Rendimento</string>
+    <string name="TransfContas">"Transferir "</string>
+    <string name="Resumos">Consultar Resumos</string>
+    <string name="limiteDesp">Definir Limite de Despesas</string>
+    <string name="valor">Valor</string>
+    <string name="selData">Selecione a Data</string>
+    <string name="registar">Registar</string>
+    <string name="dataRend">Data do Rendimento</string>
+
+    <string-array name="spinnerArray">
+        <item>Despesas</item>
+        <item>Rendimentos</item>
+        <item>Transferências</item>
+    </string-array>
+</resources>
